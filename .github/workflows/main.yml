@@ -15,7 +15,7 @@ jobs:
         with:
           host: ${{secrets.IP}}
           username: ${{secrets.USERNAME}}
-          password: ${{secrets.PEM_KEY}}
+          key: ${{secrets.PEM_KEY}}
           
           script: |
             cd /home/ubuntu/Seedly
